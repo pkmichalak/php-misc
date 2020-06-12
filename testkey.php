@@ -30,7 +30,6 @@
 		}
 		
 		public static function test() {
-	TestKey::init();
 			print "TestKey::salt: 0x". dechex(TestKey::$salt) . "<br/>\n";
 			print "TestKey::key[3]: 0x" . dechex(TestKey::$speck32Key[3]) . "<br/>\n";
 			print "TestKey::key[2]: 0x" . dechex(TestKey::$speck32Key[2]) . "<br/>\n";
